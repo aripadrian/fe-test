@@ -1,54 +1,7 @@
-# vue-tailwind-boilerplate
+# Soal
 
-Boilerplate project for [Vue.js](https://vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/) integration.
-
-## Commands used to generate this boilerplate
-
-Scaffolded project structure and development environment with command:
-
-```
-vue create vue-tailwind-boilerplate
-```
-
-Installed Tailwind CSS:
-
-```
-npm install tailwindcss
-```
-
-Created file `./assets/css/style.css` and imported Tailwind:
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-Created file `postcss.config.js` and added:
-
-```js
-module.exports = {
-    plugins: [
-        require('tailwindcss'),
-        require('autoprefixer')
-    ]
-}
-```
-
-Deleted `postcss` entry from `package.json`
-
-```json
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-```
-
-## Compiles and hot-reloads for development
-```
-npm install -g @vue/cli-service-global
-```
-```
-npm run serve
-```
+Buat sebuah apps kalkulator sederhana dalam bentuk web (menggunakan html, css, javascript, atau  react. Bisa juga dalam bentuk mobile (menggunakan java, kotlin, swift, atau react-native). dengan spek:
+- Terdapat 3 buah input number yang masing-masing memiliki checklist di sampingnya
+- Terdapat 4 buah tombol operator yatu: tambah, kurang, kali, bagi.
+- Bila salah satu tombol operator di klik, maka akan memunculkan angka hasil operasi value dari input-input yang di checklist.
+- Bila yg di checklist hanya 1 input, muncul pesan error.  Bila yang dichecklist hanya 2, maka bilangan yang dichekclist yang hanya akan di operasikan. Bila 3 input yang di checklist maka 3 value tersebut akan di operasikan berurutan..
